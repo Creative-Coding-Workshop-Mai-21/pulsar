@@ -1,5 +1,5 @@
 function autocast(d) {
-  let keys = _.keys(d);
+  let keys = Object.keys(d);
 
   let obj = {};
   keys.forEach((key) => {
