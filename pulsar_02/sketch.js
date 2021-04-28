@@ -25,7 +25,7 @@ function setup() {
     console.log("allarrays", allarrays);
     let extent = d3.extent(allarrays);
     console.log("extent", extent);
-    yScale.domain(extent).range([0, -150]);
+    yScale.domain(extent).range([0, -80]);
     xScale.domain([0, 255]).range([0, width]);
     ready = true;
     redraw();
