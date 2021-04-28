@@ -8,7 +8,7 @@ let maxValue = 74.31;
 
 async function setup() {
   createCanvas(600, 700);
-  data = await d3.csv("pulsar.csv", parseData);
+  data = await d3.csv("pulsar.csv", parseRow);
 
   xScale.domain([0, 255]).range([0, width]);
   yScale.domain([minValue, maxValue]).range([100, 0]);
@@ -33,7 +33,7 @@ function draw() {
   endShape();
 }
 
-function parseData(d) {
+function parseRow(d) {
   let valueArray = Object.values(d);
   valueArray = valueArray.map((v) => {
     return +v;
