@@ -27,7 +27,7 @@ function draw() {
     var currentData = data[i];
     push();
     translate(0, 50 + i * 30);
-    barChart(currentData);
+    barChartCentered(currentData);
     pop();
   }
 }
