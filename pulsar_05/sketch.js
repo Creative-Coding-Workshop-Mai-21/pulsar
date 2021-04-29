@@ -25,7 +25,7 @@ function draw() {
   for (let i = 0; i < data.length; i++) {
     var currentData = data[i];
     push();
-    translate(0, 50 + i * 40);
+    translate(0, 50 + i * 50);
     barChartCentered2(currentData);
     pop();
   }
@@ -37,10 +37,11 @@ function barChartCentered2(chartData) {
     let x = xScale(i);
     let h = hScale(chartData[i]);
     let c = colScale(chartData[i]);
-    fill(c, 100);
-    noStroke();
 
-    rect(x, 0, 10, h);
+    fill(255);
+    stroke(0);
+
+    ellipse(x, 0, h, h);
   }
 }
 
