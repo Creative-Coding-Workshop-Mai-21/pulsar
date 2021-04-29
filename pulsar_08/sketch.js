@@ -21,7 +21,7 @@ async function setup() {
 function draw() {
   background(0);
 
-  stroke(255, 100);
+  stroke(255);
   strokeWeight(1.5);
   fill(0);
   for (let i = 0; i < data.length; i++) {
