@@ -18,12 +18,14 @@ async function setup() {
 }
 
 function draw() {
-  background(200);
+  background(0);
 
+  stroke(255);
+  fill(0);
   for (let i = 0; i < data.length; i++) {
     var currentData = data[i];
     push();
-    translate(0, i * 8);
+    translate(0, 100 + i * 6);
     lineChart(currentData);
     pop();
   }
