@@ -1,6 +1,6 @@
 let data = [];
 
-function setup() {
+async function setup() {
   createCanvas(600, 700);
   data = await d3.csv("pulsar.csv", parseRow);
 
@@ -10,7 +10,6 @@ function setup() {
 
 function draw() {
   background(200);
-
 }
 
 function parseRow(d) {
