@@ -15,10 +15,9 @@ async function setup() {
 }
 
 function draw() {
-  background(200);
+  background(255);
 
   noStroke();
-  strokeWeight(1.5);
   fill(0);
   for (let i = 0; i < data.length; i++) {
     let currentData = data[i];
@@ -42,7 +41,7 @@ function barChart(chartData, yPosition) {
       let hDist = abs(mouseX - x);
       let sc = 1;
       if (hDist < 100) {
-        sc = map(hDist, 0, 100, 3, 1);
+        sc = map(hDist, 0, 100, 5, 1);
         y *= sc;
       }
     }
