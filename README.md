@@ -15,3 +15,9 @@ https://creative-coding-workshop-mai-21.github.io/pulsar/pulsar_06/
 https://creative-coding-workshop-mai-21.github.io/pulsar/pulsar_07/
 
 https://creative-coding-workshop-mai-21.github.io/pulsar/pulsar_08/
+
+https://creative-coding-workshop-mai-21.github.io/pulsar/pulsar_09/
+
+https://creative-coding-workshop-mai-21.github.io/pulsar/pulsar_10/
+
+
